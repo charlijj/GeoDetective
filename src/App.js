@@ -513,7 +513,7 @@ function App() {
         </div>
       </div>
       <div className="App-content">
-        <h2 id="Question"></h2>
+        <h2 id="Question">&nbsp;</h2>
         <div className="button-container" id="buttonContainer">
           <div className="button" id="yes">
             <span>YES</span>
