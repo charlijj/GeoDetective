@@ -373,17 +373,17 @@ function App() {
 
       // Get First Letter -------------------------------------
       let mostCommonLetter = getMostCommonLetter(possibleCities);
-
-      updateGuess(Questions[10] + mostCommonLetter.toUpperCase());
+      mostCommonLetter = mostCommonLetter.toUpperCase();
+      updateGuess(Questions[10] + mostCommonLetter);
       Guess.currGuess++;
       correct = await guess();
-      for (let i = possibleCountries.length - 1; i >= 0; i--) {
-        const country = possibleCountries[i];
+      for (let i = possibleCities.length - 1; i >= 0; i--) {
+        const city = possibleCities[i];
         if (
-          (correct && country.name[0] !== mostCommonLetter) ||
-          (!correct && country.name[0] === mostCommonLetter)
+          (correct && city.name[0] !== mostCommonLetter) ||
+          (!correct && city.name[0] === mostCommonLetter)
         ) {
-          possibleCountries.splice(i, 1);
+          possibleCities.splice(i, 1);
         }
       }
 
