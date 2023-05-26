@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
 import { PayPalButtons, PayPalScriptProvider } from "@paypal/react-paypal-js";
 import pinIcon from "./marker-icon.png";
