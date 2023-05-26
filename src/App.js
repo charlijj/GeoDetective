@@ -524,7 +524,8 @@ function App() {
         </div>
       </div>
       <div className="side-display menu-display">
-        <h1>GeoDetective</h1>
+        <h1 className="title">GeoDetective</h1>
+        <p className="copyright">&copy; May 26th, 2023 Jasper Charlinski. All Rights Reserved.</p>
         <p>
           GeoDetective is a guessing game that asks a series of questions and
           pin points the city you are thinking of, on average GeoDetective takes

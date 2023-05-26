@@ -212,3 +212,12 @@
   border-radius: 4px;
   margin: 10px 5px;
 }
+
+.title {
+  margin: 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.6rem;
+}
