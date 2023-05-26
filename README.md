@@ -34,4 +34,4 @@ If you enjoy GeoDetective, you can support the project by donating via the PayPa
 
 ## License
 
-GeoDetective is licensed under the MIT License. This means that you are free to use, modify, and distribute the game for any purpose.
+GeoDetective is licensed under the Apache 2.0 License.
