@@ -10,17 +10,15 @@ To run GeoDetective on your localhost, you will need to install the following de
 
 
 npm install country-state-city leaflet world-countries-population-data @paypal/react-paypal-js
-```
 
 Once you have installed the dependencies, you can start the game by running the following command:
-
 ```
 npm start
-
+```
 
 ## How to Play
 
-To play GeoDetective, simply think of a city and then click on the "Play" button. GeoDetective will then ask you a series of yes or no questions to narrow down the possible cities. GeoDetective first guesses your country, then state / provence / region, then finaly your city. Each guess updates the map to show the cordnets of the current guess to help the player answer the questions.    
+To play GeoDetective, simply think of a city and then click on the "Play" button. GeoDetective will then ask you a series of yes or no questions to narrow down the possible cities. GeoDetective first guesses your country, then state/province/region, then finally your city. Each guess updates the map to show the coordinates of the current guess to help the player answer the questions.    
 
 ## Tips
 
